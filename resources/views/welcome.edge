@@ -8,28 +8,28 @@
   @entryPointScripts('app')
 </head>
 <body>
-
-  <main>
-    <div>
-      <h1 class="title"> Funcionou! </h1>
-      <p class="subtitle">
-        Congratulations, you have just created your first AdonisJS app.
-      </p>
-
-      <ul>
-        <li>
-          The route for this page is defined inside <code>start/routes.ts</code> file
-        </li>
-
-        <li>
-          You can update this page by editing <code>resources/views/welcome.edge</code> file
-        </li>
-
-        <li>
-          If you run into problems, you can reach us on <a href="https://discord.gg/vDcEjq6?">Discord</a> or the <a href="https://github.com/adonisjs/core/discussions">Github</a>.
-        </li>
-      </ul>
-    </div>
-  </main>
+<section>
+    <form>
+      <h1>Início</h1>
+      <div class="inputbox">
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="email" required>
+        <label for="">Usuário</label>
+      </div>
+      <div class="inputbox">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input type="password" required>
+        <label for="">Senha</label>
+      </div>
+      <div class="forget">
+        <label for=""><input type="checkbox">Lembrar</label>
+        <a href="#">Esqueci minha Senha</a>
+      </div>
+      <button>Iniciar</button>
+      <div class="register">
+        <p>Não possuo cadastro <a href="#">Registrar</a></p>
+      </div>
+    </form>
+</section>
 </body>
 </html>

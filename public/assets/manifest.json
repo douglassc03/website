@@ -1,4 +1,8 @@
 {
   "assets/app.css": "http://localhost:8080/assets/app.css",
-  "assets/app.js": "http://localhost:8080/assets/app.js"
+  "assets/app.js": "http://localhost:8080/assets/app.js",
+  "assets/images/imagem111.jpg": "http://localhost:8080/assets/images/imagem111.60f8893a.jpg",
+  "assets/images/imagem_gay.png": "http://localhost:8080/assets/images/imagem_gay.c7ab5443.png",
+  "assets/images/volcano-1905556_1920.jpg": "http://localhost:8080/assets/images/volcano-1905556_1920.e4d1ce71.jpg",
+  "assets/images/mountains-3523153_1920.jpg": "http://localhost:8080/assets/images/mountains-3523153_1920.1aca5009.jpg"
 }
