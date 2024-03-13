@@ -26,3 +26,4 @@ Route.get('/', async ({ view }) => {
 })
 
 Route.get('/users','UsersController.index')
+Route.get('/users/:id', 'UsersController.show')
