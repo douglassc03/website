@@ -11,16 +11,18 @@ const users = [
 
 
     export default class UsersController {
-        public index({response}: HttpContextContract){ //objeto que vai retornar o response e view nas rotas
+        /*public index({response}: HttpContextContract){ //objeto que vai retornar o response e view nas rotas
                 return response.json(users)
-    }
+    }*/
 
     public show({response,params}: HttpContextContract){
         const user = users[params.id]
         return response.json(user)
     }
 
-
+    public async index({view}: HttpContextContract){
+        return view.render('documents/index')
+    }
 
 
 }
