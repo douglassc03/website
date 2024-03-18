@@ -1,11 +1,11 @@
-/* Reset CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global Styles */
+
 body {
   display: flex;
   align-items: center;
@@ -15,10 +15,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-family: 'popins', sans-serif; /* Font fallback */
+  font-family: 'popins', sans-serif; 
 }
 
-/* Login Form Container */
 section {
   position: relative;
   max-width: 400px;
@@ -29,10 +28,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 3rem; /* Corrected spacing */
+  padding: 2rem 3rem; 
 }
 
-/* Input Styles */
 .inputbox input {
   width: 100%;
   height: 50px;
@@ -52,7 +50,6 @@ section {
   top: 20px;
 }
 
-/* "Forgot Password" Link */
 .forget {
   margin: 35px;
   font-size: 0.85rem;
@@ -61,7 +58,6 @@ section {
   justify-content: space-between;
 }
 
-/* Submit Button */
 button {
   width: 100%;
   height: 40px;

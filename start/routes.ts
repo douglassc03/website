@@ -35,3 +35,8 @@ Route.get('/users/:id', 'UsersController.show')
 
 
 //Route.get('/users','documents.index')
+
+Route.get('/homepage', async ({ view }) => {
+  return view.render('documents.homepage')
+})
+

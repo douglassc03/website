@@ -24,7 +24,8 @@ const users = [
         return view.render('documents/index')
     }
 
-
 }
+
+
 
 //migration: API para fazer mudanças no banco de dados
