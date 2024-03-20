@@ -21,3 +21,8 @@ Route.get('/homepage', async ({ view }) => {
 })  
 
 
+Route.get('/create', async ({ view }) => {
+  return view.render('documents.create')
+})  
+
+

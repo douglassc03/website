@@ -10,9 +10,19 @@
 <body>
 <section>
     <form>
-      <h1>Seja bem-vindo(a)!</h1>
+      <h1>Crie sua Conta!</h1>
       <br>
       <br>
+      <div class="inputbox">
+        <label for="">Nome Completo</label>
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="email" required>
+      </div>
+      <div class="inputbox">
+        <label for="">Email</label>
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="email" required>
+      </div>
       <div class="inputbox">
         <label for="">Usuário</label>
         <ion-icon name="mail-outline"></ion-icon>
@@ -23,15 +33,12 @@
         <ion-icon name="lock-closed-outline"></ion-icon>
         <input type="password" required>
       </div>
-      <div class="forget">
-        <label for=""><input type="checkbox">Lembrar</label>
-        <a href="#">Esqueci minha Senha</a>
-      </div>
-      <button onclick="window.location.href = '/homepage'">Iniciar</button>
-      <div class="register">
-        <br>
-        <p>Não possui cadastro? <a href="#">Registrar</a></p>
-      </div>
+      <button onclick="window.location.href = '/homepage'">Criar conta</button>
+      <br>
+      <br>
+      <div class="botao-cadastro">
+        <a href="#">Já possui cadastro?</a>
+        </div>
     </form>
 </section>
 </body>
