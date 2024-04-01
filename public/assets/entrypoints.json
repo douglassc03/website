@@ -7,6 +7,22 @@
       "js": [
         "http://localhost:8080/assets/app.js"
       ]
-    }
+    },
+    "homepage": {
+      "css": [
+        "http://localhost:8080/assets/homepage.css"
+      ],
+      "js": [
+        "http://localhost:8080/assets/homepage.js"
+      ]
+    },
+    "create": {
+      "css": [
+        "http://localhost:8080/assets/create.css"
+      ],
+      "js": [
+        "http://localhost:8080/assets/create.js"
+      ]
+    } 
   }
 }

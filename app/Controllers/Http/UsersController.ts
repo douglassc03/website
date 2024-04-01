@@ -21,7 +21,7 @@ const users = [
         }
 
         public async index({view}: HttpContextContract){
-            return view.render('documents/index')
+            return view.render('documents.index')
         }
 
     }

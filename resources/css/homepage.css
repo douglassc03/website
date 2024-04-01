@@ -1,12 +1,57 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(images/mountains-3523153_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'popins', sans-serif; 
+}
+
+
+nav {
+  background-color: rgba(109, 109, 109, 0.5); 
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.logo {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  margin-right: auto; 
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-image: url(images/mountains-3523153_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: 'popins', sans-serif; 
-  }
+  padding-top: 70px; 
+  margin: 0; 
+}

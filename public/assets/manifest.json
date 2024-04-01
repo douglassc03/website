@@ -1,5 +1,7 @@
 {
   "assets/app.css": "http://localhost:8080/assets/app.css",
   "assets/app.js": "http://localhost:8080/assets/app.js",
+  "assets/homepage.css": "http://localhost:8080/assets/homepage.css",
+  "assets/homepage.js": "http://localhost:8080/assets/homepage.js",
   "assets/images/mountains-3523153_1920.jpg": "http://localhost:8080/assets/images/mountains-3523153_1920.1aca5009.jpg"
 }
