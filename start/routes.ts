@@ -4,7 +4,7 @@ import Route from '@ioc:Adonis/Core/Route'
 //import UsersController from 'App/Controllers/Http/UsersController'
 
 Route.get('/users', async ({ view }) => {
-  return view.render('documents.index')
+  return view.render('documents.users')
 })  
 
 /*Route.group(() => {
@@ -14,7 +14,7 @@ Route.get('/users', async ({ view }) => {
 })*/
 
 Route.get('/users/:id', 'UsersController.show')
-//Route.get('/users','documents.index')
+
 
 Route.get('/homepage', async ({ view }) => {
   return view.render('documents.homepage')
