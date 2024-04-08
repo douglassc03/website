@@ -15,14 +15,6 @@
       "js": [
         "http://localhost:8080/assets/homepage.js"
       ]
-    },
-    "create": {
-      "css": [
-        "http://localhost:8080/assets/create.css"
-      ],
-      "js": [
-        "http://localhost:8080/assets/create.js"
-      ]
-    } 
+    }
   }
 }

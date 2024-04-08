@@ -11,3 +11,6 @@ export default class Document extends BaseModel {
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public updatedAt: DateTime
 }
+
+
+//https://docs.adonisjs.com/guides/auth   *autentication
