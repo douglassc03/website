@@ -26,3 +26,7 @@ Route.get('/create', async ({ view }) => {
 })  
 
 
+Route.get('/logged', async ({ view }) => {
+  return view.render('documents.loggeduser')
+})  
+

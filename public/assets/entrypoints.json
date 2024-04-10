@@ -15,6 +15,14 @@
       "js": [
         "http://localhost:8080/assets/homepage.js"
       ]
+    },
+    "logged": {
+      "css": [
+        "http://localhost:8080/assets/logged.css"
+      ],
+      "js": [
+        "http://localhost:8080/assets/logged.js"
+      ]
     }
   }
 }

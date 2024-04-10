@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hDC Host</title>
+  @entryPointStyles('logged')
+  @entryPointScripts('logged')
+
+  <html>
+
+<head>
+    <title>Projeto hDC Host</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/71cd19710d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <div class="conteudo">
+        <div class="conteudo-navbar">
+            <nav>
+                <a href="#"><img class="logo" src="img/hdchostlogo.png" alt=""></a>
+                <ul class="items-navbar">
+                    <li><a href="#main-banner">Home</a></li>
+                    <li><a href="#conteudo-precos">Planos</a></li>
+                    <li><a href="#contato-container">Contato</a></li>
+                    <li><a class="default-btn">Nome</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner" id="main-banner">
+                <h1>hDC Host</h1>
+                <p>Os melhores planos para qualquer tipo de Projeto</p>
+            </div>
+            <section class="specialties-container">
+                <ul>          <!-- lista -->
+                    <li>         <!-- item dentro de uma lista -->
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>
+                            Implementamos protocolos de segurança avançados para impedir qualquer acesso não autorizado
+                            aos
+                            seus dados. Utilizamos criptografia SSL para proteger as transações e informações
+                            confidenciais,
+                            garantindo que sejam transmitidas de forma segura e protegidas contra interceptação. Além
+                            disso,
+                            nossos servidores são monitorados continuamente para detectar e prevenir qualquer atividade
+                            suspeita ou tentativas de intrusão.
+                        </p>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Velocidade</h3>
+                        <p>
+                            Utilizamos uma infraestrutura de hospedagem de última geração, projetada para oferecer
+                            velocidade e desempenho ideais. Nossos servidores são altamente otimizados e configurados
+                            para lidar com grandes volumes de tráfego, garantindo tempos de resposta rápidos e
+                            carregamento instantâneo de páginas. Além disso, implementamos técnicas avançadas de cache e
+                            compressão para reduzir o tamanho dos arquivos e acelerar o carregamento do conteúdo.
+                        </p>
+                        <i class="fas fa-comments"></i>
+                        <h3>Suporte</h3>
+                        <p>
+                            Nossa equipe de suporte é composta por profissionais experientes e dedicados, prontos para
+                            ajudar a resolver quaisquer problemas ou responder a perguntas relacionadas ao registro e
+                            gerenciamento de domínios. Estamos disponíveis para você por meio de vários canais de
+                            comunicação, incluindo chat ao vivo, e-mail e suporte telefônico, para garantir que você
+                            possa obter ajuda da maneira mais conveniente para você.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="conteudo-precos" id="conteudo-precos">
+                <h1>Planos e Preços</h1>
+                <p>Selecione o plano ideal para você!</p>
+                <div class="conteudo-planos">
+                    <div class="planos">
+                        <ul>
+                            <li class="preco">R$15/mês</li>
+                            <li class="nome-plano">Básico</li>
+                            <li>2GB de espaço de disco</li>
+                            <li>10 Sub-domínios</li>
+                            <li>25 contas de e-mail</li>
+                            <li>C-panel</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plano-btn">Selecionar</li>
+                        </ul>
+                    </div>
+                    <div class="planos">
+                        <ul>
+                            <li class="preco">R$30/mês</li>
+                            <li class="nome-plano">Padrão</li>
+                            <li>5GB de espaço de disco</li>
+                            <li>20 Sub-domínios</li>
+                            <li>50 contas de e-mail</li>
+                            <li>C-panel</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plano-btn">Selecionar</li>
+                        </ul>
+                    </div>
+                    <div class="planos">
+                        <ul>
+                            <li class="preco recomendado">R$50/mês</li>
+                            <li class="nome-plano">Premium</li>
+                            <li>10GB de espaço de disco</li>
+                            <li>100 Sub-domínios</li>
+                            <li>100 contas de e-mail</li>
+                            <li>C-panel</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plano-btn recomendado">Selecionar</li>
+                        </ul>
+                    </div>
+                    <div class="planos">
+                        <ul>
+                            <li class="preco">R$100/mês</li>
+                            <li class="nome-plano">Cloud</li>
+                            <li>20GB de espaço de disco</li>
+                            <li>200 Sub-domínios</li>
+                            <li>200 contas de e-mail</li>
+                            <li>C-panel</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plano-btn">Selecionar</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="conteudo-search-dominio">
+                <h2>Buscar um domínio!</h2>
+                <p>Veja se o domínio desejado está disponível!</p>
+                <form>
+                    <input type="text" name="dominio" placeholder="Digite seu domínio desejado">
+                    <input type="submit" value="Buscar Domínio">
+                </form>
+            </section>
+            <section class="contato-container" id="contato-container">
+                <h2>Entre em contato</h2>
+                <p>Fale com a gente para encontrar a melhor hospedagem para o seu negócio</p>
+                <form>
+                    <input type="text" name="dominio" placeholder="Seu nome">
+                    <input type="text" name="email" placeholder="Seu e-mail">
+                    <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <input type="submit" value="Enviar">                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Douglas Scherer - 2024</p>
+            <p>github.com/douglassc03 <a href="github.com/douglassc03"></a></p>
+        </footer>
+    </div>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
