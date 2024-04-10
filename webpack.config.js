@@ -47,6 +47,7 @@ Encore.setPublicPath('/assets')
 */
 Encore.addEntry('app', './resources/js/app.js')
 Encore.addEntry('homepage', './resources/js/homepage.js')
+Encore.addEntry('logged', './resources/js/logged.js')
 
 /*
 |--------------------------------------------------------------------------

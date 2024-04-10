@@ -2,26 +2,26 @@
   "entrypoints": {
     "app": {
       "css": [
-        "http://localhost:8080/assets/app.css"
+        "http://localhost:62426/assets/app.css"
       ],
       "js": [
-        "http://localhost:8080/assets/app.js"
+        "http://localhost:62426/assets/app.js"
       ]
     },
     "homepage": {
       "css": [
-        "http://localhost:8080/assets/homepage.css"
+        "http://localhost:62426/assets/homepage.css"
       ],
       "js": [
-        "http://localhost:8080/assets/homepage.js"
+        "http://localhost:62426/assets/homepage.js"
       ]
     },
     "logged": {
       "css": [
-        "http://localhost:8080/assets/logged.css"
+        "http://localhost:62426/assets/logged.css"
       ],
       "js": [
-        "http://localhost:8080/assets/logged.js"
+        "http://localhost:62426/assets/logged.js"
       ]
     }
   }
