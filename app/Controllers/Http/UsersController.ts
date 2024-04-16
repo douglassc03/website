@@ -20,13 +20,13 @@ const users = [
             return response.json(user)
         }
 
-        public async index({view}: HttpContextContract){
+        public async index({view}: HttpContextContract){            
             return view.render('documents.users')
         }
 
     }
 
-
+//PAGINA DE LOGIN
 
 //migration: API para fazer mudanças no banco de dados
 //node ace make:controller users

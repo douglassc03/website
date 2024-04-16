@@ -13,7 +13,6 @@ Route.get('/users', async ({ view }) => {
   Route.post('/', 'UsersController.store').as('store')  
 })*/
 
-Route.get('/users/:id', 'UsersController.show')
 
 
 Route.get('/homepage', async ({ view }) => {
@@ -26,7 +25,8 @@ Route.get('/create', async ({ view }) => {
 })  
 
 
-Route.get('/logged', async ({ view }) => {
+/*Route.get('/logged', async ({ view }) => {
   return view.render('documents.loggeduser')
-})  
+})  */
 
+Route.get('/logged', 'LoggedUsersController.loggeduser')

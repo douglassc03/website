@@ -2,7 +2,11 @@
 
 export default class LoggedUsersController {
     
-    public async loggeduser({view}: HttpContextContract){
+    public async loggeduser({view,auth}: HttpContextContract){
+        await auth.use('web').authenticate()
         return view.render('documents.loggeduser')
     }
 }
+
+
+//PAGINA INICIAL LOGADA

@@ -7,3 +7,5 @@ export default class HomePagesController {
     }
 
 }
+
+//PAGINA INICIAL
