@@ -11,9 +11,6 @@ const users = [
 
 
         export default class UsersController {
-            /*public index({response}: HttpContextContract){ //objeto que vai retornar o response e view nas rotas
-                    return response.json(users)
-        }*/
 
         public show({response,params}: HttpContextContract){
             const user = users[params.id]
@@ -25,8 +22,3 @@ const users = [
         }
 
     }
-
-//PAGINA DE LOGIN
-
-//migration: API para fazer mudanças no banco de dados
-//node ace make:controller users

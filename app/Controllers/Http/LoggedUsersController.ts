@@ -9,4 +9,5 @@ export default class LoggedUsersController {
 }
 
 
+
 //PAGINA INICIAL LOGADA
